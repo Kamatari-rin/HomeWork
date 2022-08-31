@@ -33,7 +33,7 @@ void TaskOne()
 
     int value = rnd.Next(100, 999);
 
-    Console.WriteLine(value.ToString()[1]);
+    Console.WriteLine(value);
 }
 
 //Вывод ответа
@@ -47,7 +47,6 @@ void TaskTwo()
     Console.Write("Задача №2: ");
 
     Random rnd = new Random();
-
 
     int value = rnd.Next(1, 655);
 
