@@ -1,0 +1,15 @@
+N:\GB\C#\HomeWork\task_4.2\obj\Debug\net6.0\task_4.2.csproj.AssemblyReference.cache
+N:\GB\C#\HomeWork\task_4.2\obj\Debug\net6.0\task_4.2.GeneratedMSBuildEditorConfig.editorconfig
+N:\GB\C#\HomeWork\task_4.2\obj\Debug\net6.0\task_4.2.AssemblyInfoInputs.cache
+N:\GB\C#\HomeWork\task_4.2\obj\Debug\net6.0\task_4.2.AssemblyInfo.cs
+N:\GB\C#\HomeWork\task_4.2\obj\Debug\net6.0\task_4.2.csproj.CoreCompileInputs.cache
+N:\GB\C#\HomeWork\task_4.2\bin\Debug\net6.0\task_4.2.exe
+N:\GB\C#\HomeWork\task_4.2\bin\Debug\net6.0\task_4.2.deps.json
+N:\GB\C#\HomeWork\task_4.2\bin\Debug\net6.0\task_4.2.runtimeconfig.json
+N:\GB\C#\HomeWork\task_4.2\bin\Debug\net6.0\task_4.2.dll
+N:\GB\C#\HomeWork\task_4.2\bin\Debug\net6.0\task_4.2.pdb
+N:\GB\C#\HomeWork\task_4.2\obj\Debug\net6.0\task_4.2.dll
+N:\GB\C#\HomeWork\task_4.2\obj\Debug\net6.0\refint\task_4.2.dll
+N:\GB\C#\HomeWork\task_4.2\obj\Debug\net6.0\task_4.2.pdb
+N:\GB\C#\HomeWork\task_4.2\obj\Debug\net6.0\task_4.2.genruntimeconfig.cache
+N:\GB\C#\HomeWork\task_4.2\obj\Debug\net6.0\ref\task_4.2.dll
