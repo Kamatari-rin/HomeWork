@@ -46,8 +46,8 @@ bool interestingNumOrNot(int[] breakNum)
     int numProduct = 1;
 
         for(int i = 0; i < breakNum.Length; i++) {
-            numSum = numSum + breakNum[i];
-            numProduct = numProduct * breakNum[i];
+            numSum += breakNum[i];
+            numProduct *= breakNum[i];
         }
 
         if(numProduct % numSum == 0 && numProduct != 0) {
@@ -75,7 +75,3 @@ int numLength(int number)
     }
     return numberLength;
 }
-
-        
-
-    
