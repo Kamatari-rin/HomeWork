@@ -1,8 +1,6 @@
 ﻿using System;
 
-
 // Задача №2
-
 // Считываем координаты с консоли
 Console.Write("Введите координаты первой прямой: ");
 Console.Write("Введите координаты первой точки сначало по оси x, затем по оси y: ");
@@ -35,7 +33,6 @@ Point pCDDot2 = new Point(Int32.Parse(Console.ReadLine()), Int32.Parse(Console.R
 // Упростим
 // x = (b1c2 - b2c1) / (b2a1 - b1a2)
 // y = (a1c1 - a1c2) / (a1b2 - a1b1)
-
 
 Point pCross = new Point();
 pCross.X = (b1 * c2 - b2 * c1) / (a1 * b2 - a2 * b1);
