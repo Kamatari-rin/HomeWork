@@ -27,6 +27,17 @@ Point pCDDot2 = new Point(Int32.Parse(Console.ReadLine()), Int32.Parse(Console.R
     int b2 = pCDDot1.X - pCDDot2.X;
     int c2 = -pCDDot1.X * pCDDot2.Y + pCDDot1.Y * pCDDot2.X;
 
+// Добавим проверку на параллельность и на совпадение прямых.
+if ((a1 * b2 - a2 * b1) == 0) {
+        
+    Console.WriteLine("Прямые параллельны другу друг и не имеют точек пересечения");
+        
+    if (a1 * b2 == b1 * a2 && a1 * c2 == a2 * c1 && b1 * c2 == c1 * b2) {
+
+        Console.WriteLine("Прямые совпадают и имеют бесконечное количество решений");
+    }
+}   
+
 // Находим точку пересечения решая уравнения
 // x = (-b1y - c1) / a1
 // y = (-a2x - c2) / b2
@@ -37,17 +48,6 @@ Point pCDDot2 = new Point(Int32.Parse(Console.ReadLine()), Int32.Parse(Console.R
 Point pCross = new Point();
 pCross.X = (b1 * c2 - b2 * c1) / (a1 * b2 - a2 * b1);
 pCross.Y = (a2 * c1 - a1 * c2) / (a1 * b2 - a2 * b1);
-
-// Добавим проверку на параллельность и на совпадение прямых.
-    if ((a1 * b2 - a2 * b1) == 0) {
-        
-        Console.WriteLine("Прямые параллельны другу друг и не имеют точек пересечения");
-        
-        if (a1 * b2 == b1 * a2 && a1 * c2 == a2 * c1 && b1 * c2 == c1 * b2) {
-
-            Console.WriteLine("Прямые совпадают и имеют бесконечное количество решений");
-        }
-    }   
 
 Console.WriteLine(" ");
 Console.WriteLine(pCross);
